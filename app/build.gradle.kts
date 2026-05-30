@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.pascal.myapplication"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.pascal.myapplication"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -46,6 +46,9 @@ android {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
+        jniLibs {
+            useLegacyPackaging = false
+        }
     }
 }
 
@@ -67,6 +70,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation(project(":ocr_ktp_libs"))
+    implementation(project(":ocr_libs"))
     implementation("io.coil-kt:coil-compose:2.4.0")
 }

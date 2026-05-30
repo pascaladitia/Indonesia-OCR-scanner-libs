@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "OCR KTP Compose"
 include(":app")
-include(":ocr_ktp_libs")
+include(":ocr_libs")
