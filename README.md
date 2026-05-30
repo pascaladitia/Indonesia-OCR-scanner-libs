@@ -46,25 +46,7 @@ Public package:
 com.pascal.ocr_libs
 ```
 
-## Installation
-
-### Local Project
-
-Add the library module in `settings.gradle.kts`:
-
-```kotlin
-include(":ocr_libs")
-```
-
-Add the dependency in your app module:
-
-```kotlin
-dependencies {
-    implementation(project(":ocr_libs"))
-}
-```
-
-### GitHub / JitPack
+## Installation GitHub / JitPack
 
 After publishing the repository and creating a release tag such as `v1.0.0`, add JitPack:
 
