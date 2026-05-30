@@ -48,7 +48,7 @@ com.pascal.ocr_libs
 
 ## Installation GitHub / JitPack
 
-After publishing the repository and creating a release tag such as `v1.0.0`, add JitPack:
+After publishing the repository and creating a release tag `v1.0.0`, add JitPack:
 
 ```kotlin
 dependencyResolutionManagement {
@@ -339,4 +339,4 @@ The default OCR flow runs on-device. It does not upload document images or OCR t
 
 ## License
 
-Add a `LICENSE` file before publishing. Apache-2.0 or MIT is recommended for an open-source Android library.
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
