@@ -83,7 +83,7 @@ Dependency:
 
 ```kotlin
 dependencies {
-    implementation("com.github.USERNAME:REPOSITORY:v1.0.0")
+    implementation("com.github.pascaladitia:indonesia-OCR-scanner-libs:v1.0.0")
 }
 ```
 
