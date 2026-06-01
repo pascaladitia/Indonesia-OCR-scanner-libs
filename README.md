@@ -324,19 +324,6 @@ Demo flow:
 - Use manual document type if auto-detection is wrong.
 - Store `rawText` while debugging parser behavior for real-world documents.
 
-## Privacy
-
-The default OCR flow runs on-device. It does not upload document images or OCR text to a server. If you add a cloud fallback or LLM-based parser, get explicit user consent and document the data handling policy clearly.
-
-## Release Checklist
-
-- Rename the repository to a public-friendly name, for example `Indonesia-OCR-Scanner`.
-- Update Maven `groupId`, `artifactId`, and version.
-- Add screenshots of the demo app.
-- Add a license file, such as Apache-2.0 or MIT.
-- Use only dummy sample images, never real identity documents.
-- Run `./gradlew :app:assembleDebug :ocr_libs:assembleRelease` before release.
-
 ## License
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
